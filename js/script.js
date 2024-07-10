@@ -30,11 +30,6 @@ const countdown = () => {
 
 const interval = setInterval(countdown, 1000);
 
-document.addEventListener('DOMContentLoaded', function() {
-   var audio = document.getElementById('birthdayMusic');
-   audio.play();
-});
-
 let searchBtn = document.querySelector('#search-btn');
 let searchForm = document.querySelector('.header .search-form');
 

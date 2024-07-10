@@ -148,3 +148,53 @@ body {
   font-size: 120px;
   line-height: 120px;
 }
+
+@media (max-width:450px){
+
+  body {
+    width: 50%
+  }
+  .card {
+    width: 380px;
+    height: 380px;
+    margin-right: 25px;
+    
+  }
+
+  .cake .top-layer {
+    width: 50%;
+  }
+
+  .cake .middle-layer {
+    width: 75%;
+  }
+
+  .cake .bottom-layer {
+    width: 80%;
+    margin-bottom: 2px;
+  }
+
+  .cake .candle {
+    height: 10%;
+  }
+
+  .cake .candle:before {
+    bottom: 25px;
+  }
+
+  .back .h3 {
+    font-size: 8px;
+  }
+
+  .inside .timeline {
+    width: 170px
+  }
+
+  .outside p {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    text-align: center;
+    color: #000046;
+  }
+}
