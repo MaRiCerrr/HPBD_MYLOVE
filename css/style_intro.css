@@ -259,9 +259,12 @@ body {
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 450px) {
     .container {
         width: 90%;
+    }
+    .hoten {
+        font-size: 2.5rem;
     }
     .embe-dp {
         margin-right: 10px;
