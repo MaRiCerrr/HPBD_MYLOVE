@@ -263,11 +263,16 @@ body {
     .container {
         width: 90%;
     }
-
+    .embe-dp {
+        margin-right: 10px;
+    }
     .four .text-box {
         width: 90%;
     }
-
+    .wish {
+        display: block;
+        height: 300px;
+    }
     .text-box .fake-btn {
         right: 5px;
         bottom: -38px;
@@ -282,8 +287,9 @@ body {
     }
 
     .six .hat {
-        width: 50px;
-        top: -20px;
+        width: 70px;
+        top: -70px;
+        left: 100px;
     }
 
     .wish-hbd {
@@ -291,7 +297,7 @@ body {
     }
 
     .wish h5 {
-        font-size: 1.4rem;
+        font-size: 3px;
     }
 
     .nine p {
